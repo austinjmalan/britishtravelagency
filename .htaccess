@@ -1,11 +1,11 @@
-###############################################
-### Route to instance
-###############################################
+##################################################
+## Route Request
+##################################################
 
 RewriteEngine On
 
 # RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteRule ^(.*)$ webroot/index.php?argv=$1 [QSA,L]
+RewriteRule ^(.+)$ webroot/index.php?arg=$1 [QSA,L]

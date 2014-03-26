@@ -1,7 +1,10 @@
-<?php
-
-/* - (Launch Application) ---------------------------------- */
-require_once dirname(dirname(__FILE__)) . '/support/bin/__init__.php';
-
-
-?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+</body>
+</html>

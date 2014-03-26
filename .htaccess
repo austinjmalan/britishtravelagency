@@ -9,3 +9,9 @@ RewriteEngine On
 # RewriteCond %{REQUEST_FILENAME} !-l
 
 RewriteRule ^(.+)$ webroot/index.php?arg=$1 [QSA,L]
+
+##################################################
+## Set Index Directory
+##################################################
+
+DirectoryIndex webroot/
